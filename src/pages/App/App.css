@@ -1,0 +1,20 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5% 2%; */
+  padding: 1%;
+  background-color: #eaebec;
+}
+.main-container {
+  border: 1px solid grey;
+  padding: 0;
+  background: #fff;
+  min-height: 325px;
+  width: 95%;
+  max-width: 300px;
+}

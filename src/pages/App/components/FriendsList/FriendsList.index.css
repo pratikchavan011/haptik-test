@@ -1,0 +1,88 @@
+.friends-container .header {
+  background-color: #e7e7e7;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-container .header button.sort-btn .anticon {
+  transform: rotate(90deg);
+}
+
+.friends-container #newFriendsName {
+  border: none;
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 2px solid #cdcdcd;
+}
+
+.friends-list-container {
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+.no-data-view {
+  text-align: center;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+.friends-list-item {
+  border: none;
+  width: 100%;
+  padding: 5px 20px;
+  margin: 0;
+  border-bottom: 2px solid #cdcdcd;
+  display: flex;
+  flex-direction: row;
+}
+
+.friends-list-item .name-section {
+  display: flex;
+  flex: 4 1;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.friends-list-item .name-section p.name {
+  margin: 0;
+  font-weight: bold;
+  color: #3c3c3c;
+}
+
+.friends-list-item .name-section p.name-info {
+  font-size: 11px;
+  color: #6b6a6a;
+  margin: 0;
+}
+
+.friends-list-item .action-section {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  color: #616161;
+}
+
+.friends-list-item .action-section button {
+  background-color: #fff;
+  border: 2px solid #d0d0d0;
+  box-shadow: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #adadad;
+  transition: all 0.3s;
+}
+.friends-list-item .action-section button:hover {
+  /* color: #6e6e6e; */
+  box-shadow: 1px 1px 2px 0px grey;
+}
+
+.pagination-container {
+  text-align: right;
+  padding: 5px;
+}
